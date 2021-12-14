@@ -1,19 +1,15 @@
-package com.unbxd;
+package com.unbxd.dao.movie;
 
-import java.io.Serializable;
-
-
-public class Movie implements Serializable {
-
-
-
+public class Movie {
     private String title;
 
     
     private String description;
 
 
-    public Movie() {
+    public Movie(String title,String description) {
+        this.title = title;
+        this.description = description;
     }
 
 
@@ -34,14 +30,5 @@ public class Movie implements Serializable {
         this.description = description;
         return this;
     }
-   
-
-    @Override
-    public String toString() {
-        return "Movie {" +
-                "title='" + title + '\'' +
-                ", description=" + description +
-                '}';
-    }
-
+ 
 }

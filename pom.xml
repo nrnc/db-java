@@ -58,6 +58,11 @@
             <artifactId>postgresql</artifactId>
             <version>9.0-801.jdbc4</version>
         </dependency>
+        <dependency>
+            <groupId>ro.pippo</groupId>
+            <artifactId>pippo-controller</artifactId>
+            <version>${pippo.version}</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/ro.pippo/pippo-gson -->
         <dependency>
             <groupId>ro.pippo</groupId>
